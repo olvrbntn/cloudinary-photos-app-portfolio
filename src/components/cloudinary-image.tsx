@@ -20,8 +20,8 @@ export function CloudinaryImage(props: {
   );
 
   return (
-    <div className="relative bg-zinc-100/5 rounded-sm">
-      <CldImage {...props} src={imageData.public_id} className="rounded-sm" />
+    <div className="relative bg-zinc-100/5  rounded-sm">
+      <CldImage {...props} src={imageData.public_id} className="rounded-sm w-full h-auto object-cover" />
       {isFavorited ? (
         <FullHeart
           onClick={() => {

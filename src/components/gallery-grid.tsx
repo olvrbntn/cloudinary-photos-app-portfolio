@@ -13,8 +13,8 @@ export default function GalleryGrid({images}: {images: SearchResult[]}) {
           <CloudinaryImage
             key={imageData.public_id}
             imageData={imageData}
-            width="400"
-            height="300"
+            width="2000"
+            height="1600"
             alt="an image of something"
           />
         );
