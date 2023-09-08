@@ -52,7 +52,7 @@ export function ImageGrid({
   };
 
   return (
-    <div className={`grid grid-cols-${numColumns} gap-4 py-8`}>
+    <div className={`grid grid-cols-${numColumns} gap-4 py-8 pr-8`}>
       {Array.from({ length: numColumns }).map((_, colIndex) => (
         <div key={colIndex} className="flex flex-col gap-4">
           {getColumns(colIndex).map((imageData, idx) => (
